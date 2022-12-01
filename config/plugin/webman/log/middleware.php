@@ -12,11 +12,10 @@
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-use support\view\Raw;
-use support\view\Twig;
-use support\view\Blade;
-use support\view\ThinkPHP;
+use Webman\Log\Middleware;
 
 return [
-    'handler' => Blade::class
+    '' => [
+        Middleware::class
+    ]
 ];
