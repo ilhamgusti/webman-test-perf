@@ -14,4 +14,6 @@
 
 return [
     '' => support\exception\Handler::class,
+    'shop' => support\exception\Handler::class,
+
 ];
